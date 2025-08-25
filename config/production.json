@@ -1,0 +1,11 @@
+{
+	"port": 4000,
+	"noindex": true,
+	"readonly": false,
+	"webservice": {
+		"database": "mongodb+srv://Devfi:Devfi@cluster0.zl8gnau.mongodb.net/pa11y-webservice?retryWrites=true&w=majority",
+		"host": "0.0.0.0",
+		"port": 3000,
+		"cron": "0 30 0 * * *"
+	}
+}
