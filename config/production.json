@@ -3,7 +3,7 @@
 	"noindex": true,
 	"readonly": false,
 	"webservice": {
-		"database": "mongodb+srv://Devfi:Devfi@cluster0.zl8gnau.mongodb.net/pa11y-webservice?retryWrites=true&w=majority",
+		"database": "mongodb+srv://Devfi:Devfi@cluster0.zl8gnau.mongodb.net/pa11y-webservice?retryWrites=true&w=majority&maxPoolSize=10&serverSelectionTimeoutMS=5000&connectTimeoutMS=10000&socketTimeoutMS=45000&authSource=admin",
 		"host": "0.0.0.0",
 		"port": 3000,
 		"cron": "0 30 0 * * *"
