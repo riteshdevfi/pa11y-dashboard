@@ -65,5 +65,9 @@ initDashboard(config, (error, app) => {
 			console.log(kleur.grey('database: %s'), config.webservice.database);
 			console.log(kleur.grey('cron:     %s'), config.webservice.cron);
 		});
-	}
+	}else if (typeof config.webservice === 'string') {
+			// This is the new block for when webservice is a URL string
+			console.log(kleur.underline().cyan('\nPa11y Webservice URL configured'));
+			console.log(kleur.grey('URL: %s'), config.webservice);
+		}
 });
