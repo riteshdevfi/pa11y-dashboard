@@ -1,0 +1,6 @@
+{
+	"port": 4000,
+	"noindex": true,
+	"readonly": false,
+	"webservice": "https://adaptai.apexcovantage.com/pa11y/"
+}
